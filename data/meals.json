@@ -3,7 +3,7 @@
     "id": "ertduf123456",
     "order": 1,
     "date": "18/03/2024",
-    "meal": "4xPlain Toast",
+    "food": "4xPlain Toast",
     "symptom": "none",
     "avoid": "no"
   },
@@ -11,14 +11,14 @@
   {
     "order": 3,
     "date": "18/03/2024",
-    "meal": "2 Eggs & 1 Orange",
+    "food": "2 Eggs & 1 Orange",
     "symptom": "indigestion",
     "avoid": "no"
   },
   {
     "order": 4,
     "date": "18/03/2024",
-    "meal": "Rice & Chicken Gizzards & Olives",
+    "food": "Rice & Chicken Gizzards & Olives",
     "symptom": "none",
     "avoid": "no"
   }

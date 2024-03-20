@@ -9,7 +9,7 @@ const DATA_PATH = "data/meals.json";
  */
 router.get("/", function (req, res, next) {
   console.log("reading file %o", DATA_PATH);
-  const meals = getmeals();
+  const meals = getMeals();
   res.json(meals);
 });
 
@@ -19,23 +19,23 @@ router.get("/", function (req, res, next) {
 router.post("/create", function (req, res, next) {
   const order = req.body.order;
   const date = req.body.date;
-  const meal = req.body.meal;
+  const food = req.body.food;
   const symptom = req.body.symptom;
   const avoid = req.body.avoid;
 
-  const meals = getmeals();
+  const meals = getMeals();
   const id = Math.random().toString(36).substring(7) + new Date().getTime();
 
   meals.push({
     id,
     order,
     date,
-    meal,
+    food,
     symptom,
     avoid
   });
 
-  setmeals(meals);
+  setMeals(meals);
 
   res.json({ success: true, id });
   res.status(201);
@@ -47,9 +47,9 @@ router.post("/create", function (req, res, next) {
 router.delete("/delete", function (req, res, next) {
   const id = req.body.id;
 
-  const meals = getmeals().filter(meal => meal.id != id);
+  const meals = getMeals().filter(meal => meal.id != id);
 
-  setmeals(meals);
+  setMeals(meals);
 
   res.json({ success: true });
 });
@@ -61,32 +61,32 @@ router.put("/update", function (req, res, next) {
   const id = req.body.id;
   const order = req.body.order;
   const date = req.body.date;
-  const meal = req.body.meal;
+  const food = req.body.food;
   const symptom = req.body.symptom;
   const avoid = req.body.avoid;
 
-  const meals = getmeals();
+  const meals = getMeals();
 
   const meal = meals.find(meal => meal.id == id);
   if (meal) {
     meal.order = order;
     meal.date = date;
-    meal.meal = meal;
+    meal.food = food;
     meal.symptom = symptom;
     meal.avoid = avoid;
   }
 
-  setmeals(meals);
+  setMeals(meals);
 
   res.json({ success: true });
 });
 
-function getmeals() {
+function getMeals() {
   const content = fs.readFileSync(DATA_PATH);
   return JSON.parse(content);
 }
 
-function setmeals(meals) {
+function setMeals(meals) {
   const content = JSON.stringify(meals, null, 2);
   fs.writeFileSync(DATA_PATH, content);
 }

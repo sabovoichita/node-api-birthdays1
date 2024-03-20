@@ -61,7 +61,7 @@ router.get("/install", async function (req, res, next) {
 router.get("/", async function (req, res, next) {
   try {
     const connection = await getConnection(res);
-    const sql = `SELECT id, order, date, meal, symptom, avoid FROM meals`;
+    const sql = `SELECT id, order, date, food, symptom, avoid FROM meals`;
     connection.query(sql, function (err, results) {
       if (err) {
         console.error(err);
@@ -81,14 +81,14 @@ router.get("/", async function (req, res, next) {
 router.post("/create", async function (req, res, next) {
   const order = req.body.order;
   const date = req.body.date;
-  const meal = req.body.meal;
+  const food = req.body.food;
   const symptom = req.body.symptom;
   const avoid = req.body.avoid;
 
   try {
     const connection = await getConnection(res);
-    const sql = `INSERT INTO meals (id, order, date, meal, symptom, avoid) VALUES (NULL, ?, ?, ?, ?);`;
-    connection.query(sql, [order, date, meal, symptom, avoid], function (err, results) {
+    const sql = `INSERT INTO meals (id, order, date, food, symptom, avoid) VALUES (NULL, ?, ?, ?, ?);`;
+    connection.query(sql, [order, date, food, symptom, avoid], function (err, results) {
       if (err) throw err;
       const id = results.insertId;
       connection.release();
@@ -124,14 +124,14 @@ router.put("/update", async function (req, res, next) {
   const id = req.body.id;
   const order = req.body.order;
   const date = req.body.date;
-  const meal = req.body.meal;
+  const food = req.body.food;
   const symptom = req.body.symptom;
   const avoid = req.body.avoid;
 
   try {
     const connection = await getConnection(res);
-    const sql = `UPDATE meals SET order=?, date=?, meal=?, symptom=?,avoid=? WHERE id=?`;
-    connection.query(sql, [order, date, meal, symptom, avoid, id], function (err, results) {
+    const sql = `UPDATE meals SET order=?, date=?, food=?, symptom=?,avoid=? WHERE id=?`;
+    connection.query(sql, [order, date, food, symptom, avoid, id], function (err, results) {
       if (err) throw err;
       connection.release();
       res.json({ success: true });
