@@ -22,7 +22,7 @@ Node JS CRUD API Example
 ## ⚙ Install
 
 ```sh
-git clone https://github.com/nmatei/node-api.git
+git clone https://github.com/sabovoichita/node-api.git
 cd node-api
 npm install
 ```
