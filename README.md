@@ -39,7 +39,7 @@ Open http://localhost:3000 to see if it works
 
 ## JSON file as storage
 
-Team members are stored inside [data/meals.json](data/meals.json)
+Meals are stored inside [data/meals.json](data/meals.json)
 
 ```js
 // GET meals-json
