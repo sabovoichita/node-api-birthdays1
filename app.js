@@ -7,8 +7,8 @@ var logger = require("morgan");
 
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
-var mealsDBRouter = require("./routes/meals-db");
-var mealsRouter = require("./routes/meals-json");
+var birthdaysDBRouter = require("./routes/birthdays-db");
+var birthdaysRouter = require("./routes/birthdays-json");
 
 var app = express();
 
@@ -25,7 +25,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
-app.use("/meals", mealsDBRouter);
+app.use("/birthdays", birthdaysDBRouter);
 
 function processingSimulate(req, res, next) {
   const wait = 500 + Math.floor(Math.random() * 11) * 100;
@@ -34,8 +34,8 @@ function processingSimulate(req, res, next) {
     next();
   }, wait);
 }
-app.use("/meals-json", processingSimulate, mealsRouter);
-//app.use("/meals-json", mealsRouter);
+app.use("/birthdays-json", processingSimulate, birthdaysRouter);
+//app.use("/birthdays-json", birthdaysRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

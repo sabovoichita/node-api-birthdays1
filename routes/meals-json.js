@@ -2,40 +2,40 @@ var express = require("express");
 var router = express.Router();
 var fs = require("fs");
 
-const DATA_PATH = "data/meals.json";
+const DATA_PATH = "data/birthdays.json";
 
 /**
  *
  */
 router.get("/", function (req, res, next) {
   console.log("reading file %o", DATA_PATH);
-  const meals = getMeals();
-  res.json(meals);
+  const birthdays = getBirthdays();
+  res.json(birthdays);
 });
 
 /**
  *
  */
 router.post("/create", function (req, res, next) {
-  const order = req.body.order;
-  const date = req.body.date;
-  const food = req.body.food;
-  const symptom = req.body.symptom;
-  const avoid = req.body.avoid;
+  const name = req.body.name;
+  const contact = req.body.contact;
+  const age = req.body.age;
+  const url = req.body.url;
+  const dob = req.body.dob;
 
-  const meals = getMeals();
+  const birthdays = getBirthdays();
   const id = Math.random().toString(36).substring(7) + new Date().getTime();
 
-  meals.push({
+  birthdays.push({
     id,
-    order,
-    date,
-    food,
-    symptom,
-    avoid
+    name,
+    contact,
+    age,
+    url,
+    dob
   });
 
-  setMeals(meals);
+  setBirthdays(birthdays);
 
   res.json({ success: true, id });
   res.status(201);
@@ -47,9 +47,9 @@ router.post("/create", function (req, res, next) {
 router.delete("/delete", function (req, res, next) {
   const id = req.body.id;
 
-  const meals = getMeals().filter(meal => meal.id != id);
+  const birthdays = getBirthdays().filter(birthday => birthday.id != id);
 
-  setMeals(meals);
+  setBirthdays(birthdays);
 
   res.json({ success: true });
 });
@@ -59,35 +59,35 @@ router.delete("/delete", function (req, res, next) {
  */
 router.put("/update", function (req, res, next) {
   const id = req.body.id;
-  const order = req.body.order;
-  const date = req.body.date;
-  const food = req.body.food;
-  const symptom = req.body.symptom;
-  const avoid = req.body.avoid;
+  const name = req.body.name;
+  const contact = req.body.contact;
+  const age = req.body.age;
+  const url = req.body.url;
+  const dob = req.body.dob;
 
-  const meals = getMeals();
+  const birthdays = getBirthdays();
 
-  const meal = meals.find(meal => meal.id == id);
-  if (meal) {
-    meal.order = order;
-    meal.date = date;
-    meal.food = food;
-    meal.symptom = symptom;
-    meal.avoid = avoid;
+  const birthday = birthdays.find(birthday => birthday.id == id);
+  if (birthday) {
+    birthday.name = name;
+    birthday.contact = contact;
+    birthday.age = age;
+    birthday.url = url;
+    birthday.dob = dob;
   }
 
-  setMeals(meals);
+  setBirthdays(birthdays);
 
   res.json({ success: true });
 });
 
-function getMeals() {
+function getBirthdays() {
   const content = fs.readFileSync(DATA_PATH);
   return JSON.parse(content);
 }
 
-function setMeals(meals) {
-  const content = JSON.stringify(meals, null, 2);
+function setBirthdays(birthdays) {
+  const content = JSON.stringify(birthdays, null, 2);
   fs.writeFileSync(DATA_PATH, content);
 }
 
