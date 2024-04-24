@@ -14,7 +14,7 @@ const pool = mysql.createPool({
   host: "localhost",
   user: "root",
   password: "",
-  database: "meals"
+  database: "birthdays"
 });
 
 function getConnection(res) {
@@ -39,7 +39,7 @@ function getConnection(res) {
 }
 
 /**
- * run this before first USAGE to create meals TABLE
+ * run this before first USAGE to create birthdays TABLE
  */
 router.get("/install", async function (req, res, next) {
   try {
@@ -61,7 +61,7 @@ router.get("/install", async function (req, res, next) {
 router.get("/", async function (req, res, next) {
   try {
     const connection = await getConnection(res);
-    const sql = `SELECT id, order, date, food, symptom, avoid FROM meals`;
+    const sql = `SELECT id, order, date, food, symptom, avoid FROM birthdays`;
     connection.query(sql, function (err, results) {
       if (err) {
         console.error(err);
@@ -87,7 +87,7 @@ router.post("/create", async function (req, res, next) {
 
   try {
     const connection = await getConnection(res);
-    const sql = `INSERT INTO meals (id, order, date, food, symptom, avoid) VALUES (NULL, ?, ?, ?, ?);`;
+    const sql = `INSERT INTO birthdays (id, order, date, food, symptom, avoid) VALUES (NULL, ?, ?, ?, ?);`;
     connection.query(sql, [order, date, food, symptom, avoid], function (err, results) {
       if (err) throw err;
       const id = results.insertId;
@@ -108,7 +108,7 @@ router.delete("/delete", async function (req, res, next) {
 
   try {
     const connection = await getConnection(res);
-    const sql = `DELETE FROM meals WHERE id=?`;
+    const sql = `DELETE FROM birthdays WHERE id=?`;
     connection.query(sql, [id], function (err, results) {
       if (err) throw err;
       connection.release();
@@ -130,7 +130,7 @@ router.put("/update", async function (req, res, next) {
 
   try {
     const connection = await getConnection(res);
-    const sql = `UPDATE meals SET order=?, date=?, food=?, symptom=?,avoid=? WHERE id=?`;
+    const sql = `UPDATE birthdays SET order=?, date=?, food=?, symptom=?,avoid=? WHERE id=?`;
     connection.query(sql, [order, date, food, symptom, avoid, id], function (err, results) {
       if (err) throw err;
       connection.release();
