@@ -376,7 +376,879 @@
     "id": "oozyaa1711552915837",
     "order": "48",
     "date": "27/03/2024",
-    "food": "1 banana &3xbiscuits",
+    "food": "1 banana &3x biscuits",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "3j0nl81711609460446",
+    "order": "49",
+    "date": "27/03/2024",
+    "food": "pork + 4 toast",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "23mxks1711609496528",
+    "order": "50",
+    "date": "28/03/2024",
+    "food": "apple pie & english tea",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "6ux811711614089919",
+    "order": "51",
+    "date": "28/03/2024",
+    "food": "1 apple",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "n0k3zm1711637927346",
+    "order": "52",
+    "date": "28/03/2024",
+    "food": "salad soup and 2xtoast ",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "6pujbi1711744533575",
+    "order": "53",
+    "date": "28/03/2024",
+    "food": "cheese+ fuet+ chorizo+jamon+ tomatoes",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "dv4bdi1711744534353",
+    "order": "54",
+    "date": "28/03/2024",
+    "food": "cheese+ fuet+ chorizo+jamon+ tomatoes",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "57epnf1711744583738",
+    "order": "55",
+    "date": "29/03/2024",
+    "food": "carrot cake and coffee",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "ut8wlj1711744658167",
+    "order": "56",
+    "date": "29/03/2024",
+    "food": "pork steak and cheese cake",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "awsbrr1711744697657",
+    "order": "57",
+    "date": "29/03/2024",
+    "food": "pasta and potatoes",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "ijgu7m1711964140293",
+    "order": "58",
+    "date": "30/03/2024",
+    "food": "carrot cake and coffee",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "y756hq1711964180503",
+    "order": "59",
+    "date": "30/03/2024",
+    "food": "salami,cheese,tomatoes,olives,cheese crackers",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "39fnrp1711964202124",
+    "order": "60",
+    "date": "30/03/2024",
+    "food": "beef soup",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "z2a9j1711964256804",
+    "order": "61",
+    "date": "30/03/2024",
+    "food": "6xfilled cabbage with minced meat",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "l59g971711964374915",
+    "order": "62",
+    "date": "30/03/2024",
+    "food": "pork steak & baked potatoes and pickled cabbage&peppers",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "kldll1711964440693",
+    "order": "63",
+    "date": "30/03/2024",
+    "food": "coconut cake& caramel cake",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "2lj5xe1711964472633",
+    "order": "64",
+    "date": "31/03/2024",
+    "food": "carrot cake and coffee",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "ea6ur1711964532621",
+    "order": "65",
+    "date": "31/03/2024",
+    "food": "salad soup & fresh bread",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "qly281711964588099",
+    "order": "66",
+    "date": "31/03/2024",
+    "food": "beams soup & fresh bread",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "92k0k1711964611415",
+    "order": "67",
+    "date": "01/04/2024",
+    "food": "carrot cake and coffee",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "7mqguvq1711964657220",
+    "order": "68",
+    "date": "01/04/2024",
+    "food": "1 apple",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "heffaj1711964690568",
+    "order": "69",
+    "date": "01/04/2024",
+    "food": "potatoes pasta",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "l7wrh1712132514677",
+    "order": "70",
+    "date": "01/04/2024",
+    "food": "noodle soup",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "zxp8n1712132559749",
+    "order": "71",
+    "date": "02/04/2024",
+    "food": "tomatoes toasties",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "hfhusm1712132592583",
+    "order": "72",
+    "date": "02/04/2024",
+    "food": "black chocolate& almonds",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "y7mznp1712132631678",
+    "order": "73",
+    "date": "02/04/2024",
+    "food": "pate&fresh bread& tomateos",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "qtr0pf1712132695116",
+    "order": "74",
+    "date": "02/04/2024",
+    "food": "boiled black radish & carrots & poataoes",
+    "symptom": "gas",
+    "avoid": "yes"
+  },
+  {
+    "id": "nn2qj1712132729399",
+    "order": "75",
+    "date": "03/04/2024",
+    "food": "bread & butter & gem & english tea",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "8hyhwqi1712132762983",
+    "order": "76",
+    "date": "03/04/2024",
+    "food": "1 apple",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "79tbcw1712133626759",
+    "order": "77",
+    "date": "03/04/2024",
+    "food": "chicken sauce & polenta",
+    "symptom": "pain-belly button",
+    "avoid": "no"
+  },
+  {
+    "id": "wayum81712220184490",
+    "order": "78",
+    "date": "03/04/2024",
+    "food": "tomatoes salad. olive oil with bread ",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "n8hi6rf1712658808574",
+    "order": "79",
+    "date": "04/04/2024",
+    "food": "tomatoes salad. olive oil with bread ",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "wey1jd1712658858558",
+    "order": "80",
+    "date": "04/04/2024",
+    "food": "chicken sauce and boiled potatoes",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "ynwof51712658954300",
+    "order": "81",
+    "date": "05/04/2024",
+    "food": "asparagus and eggs and tomatoes",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "gypfol1712658985422",
+    "order": "82",
+    "date": "05/04/2024",
+    "food": "chicken sauce and pasta",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "o2zfgn1712659041086",
+    "order": "83",
+    "date": "06/04/2024",
+    "food": "Miguelitos de la Roda",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "980gq1712659087684",
+    "order": "84",
+    "date": "06/04/2024",
+    "food": "lasagna and fideua",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "2hi4rh1712659109313",
+    "order": "85",
+    "date": "06/04/2024",
+    "food": "burger",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "g0ui8b1712659149473",
+    "order": "86",
+    "date": "07/04/2024",
+    "food": "Miguelitos de la Roda & coffee",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "mvr6dn1712659236586",
+    "order": "87",
+    "date": "07/04/2024",
+    "food": "pork meat with mushrooms sauce",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "tu1j5k1712659264541",
+    "order": "88",
+    "date": "07/04/2024",
+    "food": "chicken soup",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "nnwaja1712659287220",
+    "order": "89",
+    "date": "07/04/2024",
+    "food": "chips",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "rc52pr1712659313426",
+    "order": "90",
+    "date": "08/04/2024",
+    "food": "Miguelitos de la Roda & coffee",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "xni57u1712659351762",
+    "order": "91",
+    "date": "08/04/2024",
+    "food": "chicken soup and strawberries",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "sizdnm1712659373668",
+    "order": "92",
+    "date": "08/04/2024",
+    "food": "1apple",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "bkzmk1712659405994",
+    "order": "93",
+    "date": "08/04/2024",
+    "food": "chichen sauce and fresh bread",
+    "symptom": "tummy ache",
+    "avoid": "no"
+  },
+  {
+    "id": "3gti3a1712659427149",
+    "order": "94",
+    "date": "09/04/2024",
+    "food": "Miguelitos de la Roda & coffee",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "cdsytm1712731568221",
+    "order": "95",
+    "date": "09/04/2024",
+    "food": "chicken soup",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "bvo8bo1712731611504",
+    "order": "96",
+    "date": "09/04/2024",
+    "food": "1 apple",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "f57t9b1712731647821",
+    "order": "97",
+    "date": "09/04/2024",
+    "food": "1 handfull of almonds",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "ml3t2j1712731686279",
+    "order": "98",
+    "date": "09/04/2024",
+    "food": "french toast and tomatoes",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "5rstws1712731725309",
+    "order": "99",
+    "date": "10/04/2024",
+    "food": "french toast, Miquelitos and coffee",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "zc1a1t1712731798349",
+    "order": "100",
+    "date": "10/04/2024",
+    "food": "chichen sauce and fresh bread",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "qdo1u1712731827116",
+    "order": "101",
+    "date": "10/04/2024",
+    "food": "chichen soup and boiled vegies",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "26uid1712850670235",
+    "order": "102",
+    "date": "11/04/2024",
+    "food": "Miguelitos de la Roda & coffee",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "llzym1712850705301",
+    "order": "103",
+    "date": "11/04/2024",
+    "food": "chicken soup & vegies",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "gane5d1712850742636",
+    "order": "104",
+    "date": "11/04/2024",
+    "food": "lentils & tomatoes",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "qm75io1712850806100",
+    "order": "105",
+    "date": "12/04/2024",
+    "food": "Miguelitos de la Roda & coffee",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "5kpjm1713168491942",
+    "order": "106",
+    "date": "12/04/2024",
+    "food": "lentils& tomatoes",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "dbqyuvh1713168548895",
+    "order": "107",
+    "date": "12/04/2024",
+    "food": "minced meat cabbage",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "8guacq1713168577557",
+    "order": "108",
+    "date": "13/04/2024",
+    "food": "apple pie",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "n4ut791713168639439",
+    "order": "109",
+    "date": "13/04/2024",
+    "food": "aubugine salad on toast+ tomatoes",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "j9a2xg1713168677339",
+    "order": "110",
+    "date": "13/04/2024",
+    "food": "salamy & cheese & tomatoes",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "0ko6sl1713168709241",
+    "order": "111",
+    "date": "13/04/2024",
+    "food": "sausages and boiled potatoes",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "0n0em1713168726432",
+    "order": "112",
+    "date": "13/04/2024",
+    "food": "cake",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "mztobp1713168743183",
+    "order": "113",
+    "date": "14/04/2024",
+    "food": "apple pie",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "23aoe1713168771716",
+    "order": "114",
+    "date": "14/04/2024",
+    "food": "cabbage soup",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "6mlp8s1713168890751",
+    "order": "115",
+    "date": "14/04/2024",
+    "food": "fried zucchini, bread and tomatoes",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "wovyan1713168916430",
+    "order": "116",
+    "date": "14/04/2024",
+    "food": "ice cream",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "52p311713168948683",
+    "order": "117",
+    "date": "15/04/2024",
+    "food": "apple pie &coffee",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "cg7k91713168972825",
+    "order": "118",
+    "date": "15/04/2024",
+    "food": "handfull of almonds",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "ntg7z1713256166658",
+    "order": "119",
+    "date": "15/04/2024",
+    "food": "zucchini and tomatoes sandwich",
+    "symptom": "diarrhea",
+    "avoid": "no"
+  },
+  {
+    "id": "w7dpwn1713256198705",
+    "order": "120",
+    "date": "15/04/2024",
+    "food": "cabbage soup",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "o36cq1713256284851",
+    "order": "121",
+    "date": "15/04/2024",
+    "food": "handfull of walnuts",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "he7r21713256307214",
+    "order": "122",
+    "date": "16/04/2024",
+    "food": "Miguelitos de la Roda & coffee",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "dnvi8o1713256329238",
+    "order": "123",
+    "date": "16/04/2024",
+    "food": "zucchini and tomatoes sandwich",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "2j67qw1713256354155",
+    "order": "124",
+    "date": "16/04/2024",
+    "food": "handfull of walnuts",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "b7955i1713256382075",
+    "order": "125",
+    "date": "16/04/2024",
+    "food": "cabbage soup",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "m2zekb1713382940102",
+    "order": "126",
+    "date": "17/04/2024",
+    "food": "Miguelitos de la Roda & coffee",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "olxx81713382964594",
+    "order": "127",
+    "date": "17/04/2024",
+    "food": "handfull of walnuts",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "oowtzf1713382993746",
+    "order": "128",
+    "date": "17/04/2024",
+    "food": "mimced meat cabbage",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "06glnh1713383029324",
+    "order": "129",
+    "date": "17/04/2024",
+    "food": "cabbage soup",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "m34cbb1713383063188",
+    "order": "130",
+    "date": "17/04/2024",
+    "food": "ice cream",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "qtwejv1713383109844",
+    "order": "131",
+    "date": "17/04/2024",
+    "food": "tomatoes and cheese on toast",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "qmisq1713383135452",
+    "order": "132",
+    "date": "18/04/2024",
+    "food": "Miguelitos de la Roda & coffee",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "0yewqv1713383171631",
+    "order": "133",
+    "date": "18/04/2024",
+    "food": "cabbage soup",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "wglzxs1713540377434",
+    "order": "134",
+    "date": "18/04/2024",
+    "food": "handfull of walnuts+snack",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "yms52p1713540414201",
+    "order": "135",
+    "date": "18/04/2024",
+    "food": "cabbage soup & ice cream",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "ov688n1713540433731",
+    "order": "136",
+    "date": "18/04/2024",
+    "food": "fuet",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "2kcle1713540454177",
+    "order": "137",
+    "date": "19/04/2024",
+    "food": "Miguelitos de la Roda & coffee",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "raawsp1713540484490",
+    "order": "138",
+    "date": "19/04/2024",
+    "food": "1 apple",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "mimoco1713540511628",
+    "order": "139",
+    "date": "19/04/2024",
+    "food": "cabbage soup",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "mv8uq1713540544518",
+    "order": "140",
+    "date": "19/04/2024",
+    "food": "toast, cream cheese and tomatoes",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "gyznpn1713540565590",
+    "order": "141",
+    "date": "19/04/2024",
+    "food": "cabbage soup",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "33xqjd1713540590634",
+    "order": "142",
+    "date": "19/04/2024",
+    "food": "2 hard boild eggs",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "pzu6ty1713540617843",
+    "order": "143",
+    "date": "20/04/2024",
+    "food": "french toast, tomatoes and goat cheese",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "n93b81713540635356",
+    "order": "144",
+    "date": "20/04/2024",
+    "food": "anchovies pasta",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "e3omhb1713776862232",
+    "order": "145",
+    "date": "21/04/2024",
+    "food": "grill sandwich and desert",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "j1bsm1713776945415",
+    "order": "146",
+    "date": "22/04/2024",
+    "food": "french toast",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "9pox9p1713776984658",
+    "order": "147",
+    "date": "22/04/2024",
+    "food": "kebab meat",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "qgvmwi1713777008807",
+    "order": "148",
+    "date": "22/04/2024",
+    "food": "ice cream",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "2cajcs1713777044106",
+    "order": "149",
+    "date": "22/04/2024",
+    "food": "shrimp x 2 and toast",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "s3sq1b1713777135974",
+    "order": "150",
+    "date": "23/04/2024",
+    "food": "oreo cheese cake and coffee",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "34gnhu1713777159678",
+    "order": "151",
+    "date": "23/04/2024",
+    "food": "1 apple",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "lhqok51713944461683",
+    "order": "152",
+    "date": "23/04/2024",
+    "food": "eggs, tomatoes, cheese, chorizo, fresh bread",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "1x187j1713944524987",
+    "order": "153",
+    "date": "23/04/2024",
+    "food": "chicken potatoes soup & cheese cake",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "wh37u81713944582729",
+    "order": "154",
+    "date": "24/04/2024",
+    "food": "oreo cheesecake and coffee",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "hx86w1713944622691",
+    "order": "155",
+    "date": "24/04/2024",
+    "food": "chicken cous-cous",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "q78s7o1713944650863",
+    "order": "156",
+    "date": "24/04/2024",
+    "food": "1 apple",
+    "symptom": "none",
+    "avoid": "no"
+  },
+  {
+    "id": "300g4p1713944690159",
+    "order": "157",
+    "date": "24/04/2024",
+    "food": "chicken potatoes soup",
     "symptom": "none",
     "avoid": "no"
   }
