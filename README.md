@@ -1,11 +1,11 @@
-# node-api
+# node-api-meals
 
 Node JS CRUD API Example
 
-- [x] store info in [JSON file](data/birthdays.json)
+- [x] store info in [JSON file](data/meals.json)
 - [x] store info in DB [MySQL](https://www.mysql.com/)
 - [ ] store info in file similar to mongo format (check https://github.com/sergeyksv/tingodb)
-- [x] UI Example for this app can be found in [birthdays-calendar](https://github.com/sabovoichita/birthdays-calendar)
+- [x] UI Example for this app can be found in [meals-planner](https://github.com/sabovoichita/meals-planner)
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ Node JS CRUD API Example
 ## ⚙ Install
 
 ```sh
-git clone https://github.com/sabovoichita/node-api-birthdays.git
+git clone https://github.com/sabovoichita/node-api-meals.git
 cd node-api
 npm install
 ```
@@ -39,33 +39,34 @@ Open http://localhost:3000 to see if it works
 
 ## JSON file as storage
 
-Birthdays are stored inside [data/birthdays.json](data/birthdays.json)
+Meals are stored inside [data/meals.json](data/meals.json)
 
 ```js
-// GET birthdays-json
-fetch("http://localhost:3000/birthdays-json", {
+// GET meals-json
+fetch("http://localhost:3000/meals-json", {
   method: "GET",
   headers: {
     "Content-Type": "application/json"
   }
 });
 
-// POST birthdays-json/create
-fetch("http://localhost:3000/birthdays-json/create", {
+// POST meals-json/create
+fetch("http://localhost:3000/meals-json/create", {
   method: "POST",
   headers: {
     "Content-Type": "application/json"
   },
   body: JSON.stringify({
-    promotion: "WON3",
-    members: "Your Name",
-    name: "CV",
-    url: "https://github.com/sabovoichita/birthdays-calendar"
+    order: 1,
+    date: "18/03/2024",
+    food: "4xPlain Toast",
+    symptom: "none",
+    avoid: "no"
   })
 });
 
-// DELETE birthdays-json/delete
-fetch("http://localhost:3000/birthdays-json/delete", {
+// DELETE meals-json/delete
+fetch("http://localhost:3000/meals-json/delete", {
   method: "DELETE",
   headers: {
     "Content-Type": "application/json"
@@ -73,18 +74,19 @@ fetch("http://localhost:3000/birthdays-json/delete", {
   body: JSON.stringify({ id: "fedcba1610309909431" })
 });
 
-// PUT birthdays-json/update
-fetch("http://localhost:3000/birthdays-json/update", {
+// PUT meals-json/update
+fetch("http://localhost:3000/meals-json/update", {
   method: "PUT",
   headers: {
     "Content-Type": "application/json"
   },
   body: JSON.stringify({
     id: "fedcba1610310163146",
-    promotion: "WON3",
-    members: "UpdatedName",
-    name: "Name",
-    url: "https://github.com/sabovoichita/birthdays-calendar"
+    order: 1,
+    date: "18/03/2024",
+    food: "4xPlain Toast",
+    symptom: "none",
+    avoid: "no"
   })
 });
 ```
@@ -93,11 +95,11 @@ fetch("http://localhost:3000/birthdays-json/update", {
 
 Team members are stored in [MySQL](https://www.mysql.com/)
 
-- configure user & pass for mysql connection [routes/birthdays-db.js](routes/birthdays-db.js)
-- create a database named **birthdays**
-- run [http://localhost:3000/birthdays/install](http://localhost:3000/birthdays/install)
+- configure user & pass for mysql connection [routes/meals-db.js](routes/meals-db.js)
+- create a database named **meals**
+- run [http://localhost:3000/meals/install](http://localhost:3000/meals/install)
 - now you can run all CRUD operations
-  - the same as for json but change url **"birthdays-json" -> "birthdays"**
+  - the same as for json but change url **"meals-json" -> "meals"**
 
 ## TODOs
 
