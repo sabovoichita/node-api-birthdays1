@@ -1283,5 +1283,13 @@
     "food": "chicken potatoes soup",
     "symptom": "none",
     "avoid": "no"
+  },
+  {
+    "id": "xt5nmn1714035362598",
+    "order": "159",
+    "date": "25/04/2024",
+    "food": "chicken potatoes soup",
+    "symptom": "none",
+    "avoid": "no"
   }
 ]
